@@ -1,0 +1,17 @@
+#include *len of _seq.h"
+int len_of_seq(FILE **)
+int mx = 1, k = 1:
+double cur, prev;
+if (fscanf(f. "gLf". &prev) l= 1)
+1
+printf("File is empty"): return 0;
+while (fscanf(f. "slf", &cur) == 1)
+if (cur ›= prev) k +- 1:
+else k = 1;
+if (mx < k) mx = k;
+prev = cur:
+( mx
+==
+1)
+printf("There is no increasing sequence") ; return 0;
+else return mx;
