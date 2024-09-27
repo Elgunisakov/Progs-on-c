@@ -1,0 +1,12 @@
+#include «stoio.h>
+#includestdlib.h>
+#include smath.h>
+int len of seg(FILE **):
+int main(void)
+FILE *f = fopen（"zadanie_42.txt・"r'）；
+ユ（f==NULL）
+printf ("File error");
+return -1;
+else
+printf ("sd", len_of_seq(f)):
+return 0;
